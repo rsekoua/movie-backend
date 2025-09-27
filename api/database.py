@@ -6,7 +6,6 @@ from sqlalchemy.orm import declarative_base
 from sqlalchemy.orm import sessionmaker
 
 
-
 # 1. Obtenir le chemin absolu du répertoire où se trouve ce fichier (database.py)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
